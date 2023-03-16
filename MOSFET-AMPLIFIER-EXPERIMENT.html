@@ -23,14 +23,6 @@
     <script type="text/javascript" src="MOSFET-AMPLIFIER-EXPERIMENT_files/lms-main_vendor.js" charset="utf-8"></script>
     <script type="text/javascript" src="MOSFET-AMPLIFIER-EXPERIMENT_files/lms-application.js" charset="utf-8"></script>
     <script type="text/javascript" src="MOSFET-AMPLIFIER-EXPERIMENT_files/commons.js"></script>
-    <script>
-      window.baseUrl = "https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/";
-      (function(require) {
-        require.config({
-          baseUrl: window.baseUrl
-        });
-      }).call(this, require || RequireJS.require);
-    </script>
     <script type="text/javascript" src="MOSFET-AMPLIFIER-EXPERIMENT_files/require-config.js"></script>
     <script type="text/javascript">
       (function(require) {
@@ -64,9 +56,6 @@
     <script src="MOSFET-AMPLIFIER-EXPERIMENT_files/discussion_vendor.js" type="application/javascript"></script>
     <link rel="stylesheet" href="MOSFET-AMPLIFIER-EXPERIMENT_files/inline-discussion.css" type="text/css">
     <!-- base href="https://courses.edx.org/xblock/block-v1:MITx+6.002.2x+2T2019+type@vertical+block@Mosfet_Amplifier_Experiment?show_title=0&show_bookmark_button=0&recheck_access=1&view=student_view" -->
-    <script type="text/javascript">
-      var $$course_id = "course\u002Dv1:MITx+6.002.2x+2T2019";
-    </script>
     <script type="application/json" id="user-metadata">
       null
     </script>
@@ -74,27 +63,6 @@
     <meta name="path_prefix" content="">
     <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY">
     <meta name="openedx-release-line" content="master">
-    <script type="text/javascript">
-      (function(b, r, a, n, c, h, _, s, d, k) {
-        if (!b[n] || !b[n]._q) {
-          for (; s < _.length;) c(h, _[s++]);
-          d = r.createElement(a);
-          d.async = 1;
-          d.src = "https://cdn.branch.io/branch-latest.min.js";
-          k = r.getElementsByTagName(a)[0];
-          k.parentNode.insertBefore(d, k);
-          b[n] = h
-        }
-      })(window, document, "script", "branch", function(b, r) {
-        b[r] = function() {
-          b._q.push([r, arguments])
-        }
-      }, {
-        _q: [],
-        _v: 1
-      }, "addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
-      branch.init('key_test_amtw27wsxA2wo5cy7NTROenatBhky0ZU');
-    </script>
     <link rel="stylesheet" href="MOSFET-AMPLIFIER-EXPERIMENT_files/sound-labs.css">
     <script src="MOSFET-AMPLIFIER-EXPERIMENT_files/Lab_5B.js" type="text/javascript"></script>
   </head>
@@ -103,45 +71,6 @@
     <a class="nav-skip sr-only sr-only-focusable" href="#main">Skip to main content</a>
     <div class="marketing-hero"></div>
     <div class="content-wrapper main-container" id="content" dir="ltr">
-      <script type="text/template" id="image-modal-tpl"> <div class="wrapper-modal wrapper-modal-image">
-																							<section class="image-link"><%= smallHTML%><% // xss-lint: disable=underscore-not-escaped %>
-																								<a href="#" class="modal-ui-icon action-fullscreen" role="button">
-																									<span class="label">
-																										<span class="icon fa fa-arrows-alt fa-large" aria-hidden="true"></span><%- gettext("Fullscreen") %>
-																									</span>
-																								</a>
-																							</section>
-																							<section class="image-modal">
-																								<section class="image-content">
-																									<div class="image-wrapper">
-																										<img alt="<%- largeALT %>, <%- gettext('Large') %>" src="
-																											<%- largeSRC %>" />
-																										</div>
-																										<a href="#" class="modal-ui-icon action-close" role="button">
-																											<span class="label">
-																												<span class="icon fa fa-remove fa-large" aria-hidden="true"></span><%- gettext("Close") %>
-																											</span>
-																										</a>
-																										<ul class="image-controls">
-																											<li class="image-control">
-																												<a href="#" class="modal-ui-icon action-zoom-in" role="button">
-																													<span class="label">
-																														<span class="icon fa fa fa-search-plus fa-large" aria-hidden="true"></span><%- gettext("Zoom In") %>
-																													</span>
-																												</a>
-																											</li>
-																											<li class="image-control">
-																												<a href="#" class="modal-ui-icon action-zoom-out is-disabled" aria-disabled="true" role="button">
-																													<span class="label">
-																														<span class="icon fa fa fa-search-minus fa-large" aria-hidden="true"></span><%- gettext("Zoom Out") %>
-																													</span>
-																												</a>
-																											</li>
-																										</ul>
-																									</section>
-																								</section>
-																							</div>
-																						</script>
       <div class="course-wrapper chromeless">
         <section class="course-content" id="course-content" data-enable-completion-on-view-service="false" style="display: block; width: auto; margin: 0;">
           <main id="main" aria-label="Content">
@@ -286,15 +215,6 @@
                 </div>
               </div>
             </div>
-            <script type="text/javascript">
-              (function(require) {
-                require(['https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/js/dateutil_factory.a28baef97506.js?raw'], function() {
-                  require(['js/dateutil_factory'], function(DateUtilFactory) {
-                    DateUtilFactory.transform('.localized-datetime');
-                  });
-                });
-              }).call(this, require || RequireJS.require);
-            </script>
             <script>
               function emit_event(message) {
                 parent.postMessage(message, '*');
